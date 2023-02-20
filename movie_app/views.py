@@ -38,8 +38,6 @@ def get_director(request, id):
         return Response(status=status.HTTP_204_NO_CONTENT)
 
 
-
-
 @api_view(['GET', 'POST'])
 def list_movies(request):
     if request.method == "GET":

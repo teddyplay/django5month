@@ -6,3 +6,4 @@ urlpatterns = [
     path('', include("movie_app.urls")),
 
 ]
+
